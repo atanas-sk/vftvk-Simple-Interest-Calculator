@@ -1,4 +1,129 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color:rgb(0, 0, 0);
+  font-family: 'Noto Sans Display', sans-serif;
 
+  
+  
+    min-width:472px;
+    width: auto !important;
+    width:472px;
+}
+
+/*---Smaller screen CSS - exact copy of example image---*/
+
+h1{color:rgb(132, 139, 132);
+  font-weight: 800;
+  font-size: 40px;
+  line-height:100px;
+
+word-spacing: 4px;
+padding-top: 40px;
+text-align: center;
+}
+
+
+#maindiv {
+  background-color: white;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 25px;
+  
+}
+
+
+.calcelement{
+margin-left: 15%;
+padding-bottom: 15px;
+font-family: 'Noto Sans Display', sans-serif;
+
+
+}
+
+#principal{
+margin-left: 70px;
+}
+
+#rate{
+  margin-left: 36px;
+}
+
+#years{
+  margin-left: 42px;
+  width: 44px;
+  
+}
+
+#result{
+ opacity: 0;
+}
+.button{
+  margin-left: 15%;
+  margin-bottom: 30px;
+  margin-top: 8px;
+}
+
+#computation-text {
+  margin-left:102px;
+  line-height: 8px;
+  
+}
+
+
+/*---Window resize CSS(For full screen and different sizes)---*/
+@media(max-width:630px) {
+  h1{
+    line-height:50px ;
+  }
+  
+}
+
+@media(min-width:850px){
+ h1{
+   font-size: 80px;
+   margin-bottom: 90px;
+
+ }
+
+ body{
+   font-size: 34px;
+   line-height: 55px;
+ }
+
+ .calcelement{
+   margin-left: 24%;
+ }
+
+ .button{
+   margin-left: 24%;
+   font-size: 28px;
+   padding: 4px;
+ }
+
+ #principal{
+  width: 42%;
+  height: 36px;
+  font-size: 34px;
+  margin-left: 100px;
+  }
+  
+  #rate{
+    margin-left: 25px;
+    width: 39%;
+    font-size: 100px;
+    
+  }
+  
+  #years{
+    margin-left: 40px;
+    width: 64px;
+    height: 36px;
+    font-size: 34px;
+  }
+  
+  #computation-text {
+    margin-left:24%;
+    line-height: 13px;
+    padding-bottom: 18px;
+    
+  }
+}
 
