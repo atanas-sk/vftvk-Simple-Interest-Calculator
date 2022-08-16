@@ -43,8 +43,8 @@ function compute() {
     const tText = document.createTextNode('at an interest rate of  '+ rate1.value+'%');
     const vText = document.createTextNode('You will receive an amount of  ' + amount);
     const xText = document.createTextNode('In the year  ' + time);
+   
 
-    
     resultsdiv.style.color = 'black';
     resultsdiv.style.fontStyle = 'normal';
     p.appendChild(pText);
@@ -55,9 +55,13 @@ function compute() {
     resultsdiv.appendChild(v);
     x.appendChild(xText);
     resultsdiv.appendChild(x);
+
+  
+    getElementsByClassName("button").style.color = 'yellow';
     
  
     
     principal.value.style.background = 'black';
   }
 }
+
