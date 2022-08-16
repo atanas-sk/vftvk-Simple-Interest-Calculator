@@ -1,3 +1,4 @@
+
 body {background-color:rgb(0, 0, 0);
   font-family: 'Noto Sans Display', sans-serif;
 
@@ -7,24 +8,21 @@ body {background-color:rgb(0, 0, 0);
     width: auto !important;
     width:472px;
 }
-
-/*---Smaller screen CSS - exact copy of example image---*/
-
 h1{color:rgb(132, 139, 132);
   font-weight: 800;
-  font-size: 40px;
-  line-height:100px;
+  font-size: 3rem;
+  line-height:3rem;
 
-word-spacing: 4px;
-padding-top: 40px;
+word-spacing: 0.5rem;
+padding-top: 2.5rem;
 text-align: center;
 }
 
 
 #maindiv {
   background-color: white;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 3rem;
+  margin-right: 3rem;
   border-radius: 25px;
   
 }
@@ -48,7 +46,7 @@ margin-left: 70px;
 
 #years{
   margin-left: 42px;
-  width: 44px;
+  width: 2.2rem;
   
 }
 
@@ -57,36 +55,50 @@ margin-left: 70px;
 }
 .button{
   margin-left: 15%;
-  margin-bottom: 30px;
-  margin-top: 8px;
+  margin-bottom: 2.5rem;
+  margin-top: 1rem;
 }
 
 #computation-text {
-  margin-left:102px;
+  margin-left:6rem;
   line-height: 8px;
-  
+}
+
+.trademark {
+  margin-left: 1.5rem;
+  padding-bottom:30px;
 }
 
 
-/*---Window resize CSS(For full screen and different sizes)---*/
+/*---Window resize CSS---*/
 @media(max-width:630px) {
   h1{
-    line-height:50px ;
+    line-height:3rem ;
   }
   
 }
 
 @media(min-width:850px){
- h1{
-   font-size: 80px;
-   margin-bottom: 90px;
+ 
+ 
+  h1{
+   font-size: 4.5rem;
+   margin-bottom: 2.5rem;
+   line-height: 5rem;
 
  }
 
  body{
-   font-size: 34px;
-   line-height: 55px;
+   font-size: 1.5rem;
+   line-height: 3.7rem;
  }
+
+ #maindiv {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  
+}
+
 
  .calcelement{
    margin-left: 24%;
@@ -94,14 +106,14 @@ margin-left: 70px;
 
  .button{
    margin-left: 24%;
-   font-size: 28px;
-   padding: 4px;
+   font-size: 1.5rem;
+   padding: 0.15rem;
  }
 
  #principal{
   width: 42%;
-  height: 36px;
-  font-size: 34px;
+  height: 2.2rem;
+  font-size: 2rem;
   margin-left: 100px;
   }
   
@@ -114,16 +126,23 @@ margin-left: 70px;
   
   #years{
     margin-left: 40px;
-    width: 64px;
-    height: 36px;
-    font-size: 34px;
+    width: 4.1rem;
+    height: 2.2rem;
+    font-size: 2rem;
   }
   
   #computation-text {
     margin-left:24%;
-    line-height: 13px;
-    padding-bottom: 18px;
+    line-height: 1.6rem;
+    padding-bottom: -8rem;
     
   }
+
+  .trademark {
+    padding-bottom: 1px;
+  }
+  
 }
+
+
 
