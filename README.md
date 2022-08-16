@@ -1,9 +1,11 @@
 # coding-project-template-Screenshot
 
-![ProjectScreenshot](https://user-images.githubusercontent.com/109441195/184910314-f28034e1-e0e0-47ad-94e6-a885f87c8f83.PNG)
 
 
 Hello, thank you for reviewing my project! I hope I have accomplished the task in a organised and presentable way.
 
+Note:Interest Rate <input type="range" max="21"> - I have put 21 as max range based on the position of the slider in the screenshot example.
+
+                     
 I wish you all the best
 Atanas
