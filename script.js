@@ -64,4 +64,3 @@ function compute() {
     principal.value.style.background = 'black';
   }
 }
-
