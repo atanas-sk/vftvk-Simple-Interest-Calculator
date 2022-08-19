@@ -13,10 +13,10 @@
         <h1>Simple Interest Calculator</h1>
 
         <div class="calcelement">Amount <input type="number" min="0"  id="principal"></div>  
-        <div class="calcelement">Interest Rate <input type="range" min="0" max="21" value="0" step ="0.1" id="rate">
+        <div class="calcelement">Interest Rate <input type="range" value="0" min="1" max="20" step ="0.1" id="rate">
             <span id="value">0</span>%
         </div>  
-        <div class="calcelement"> No. of Years <input type="number" min="0"  id="years"></div>  
+        <div class="calcelement"> No. of Years <input type="number" min="0"  id="years" list="list"></div>  
         <button class="button" onclick="compute()">Compute Interest</button>
 
     
@@ -28,9 +28,23 @@
         font-weight:500;">&copy; Everyone Can Get Rich</p>
     </div>
     
+                         
+    <datalist id="list">
+        <option value="1">
+        <option value="2">
+        <option value="3">
+        <option value="4">
+        <option value="5">
+        <option value="6">
+        <option value="7">
+        <option value="8">
+        <option value="9">
+        <option value="10">
     
+     </datalist>
     
-    <script src="script.js"></script>
+   
+    <script src="JavaS.js"></script>
 
     </body>
 </html>
