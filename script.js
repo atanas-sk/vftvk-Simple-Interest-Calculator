@@ -17,17 +17,24 @@ function compute() {
 
     document.getElementById('computation-text').innerHTML = '';
 
-  if (deposit.value == 0 || rate1.value == 0 || years1.value == 0) {
-    const p = document.createElement('p');
-    const pText = document.createTextNode('Please enter all fields');
-
-    resultsdiv.style.color = 'red';
-    resultsdiv.style.fontStyle = 'italic';
-    p.appendChild(pText);
-    resultsdiv.appendChild(p);
-
+    if(deposit.value<=0){
+      window.alert("Please enter a positive number as 'Amount'")
+      setTimeout(function(){deposit.focus();}, 1);
 
   } else {
+
+    
+      if (years1.value == 0) {
+        const p = document.createElement('p');
+        const pText = document.createTextNode('Please enter all fields');
+    
+        resultsdiv.style.color = 'red';
+        resultsdiv.style.fontStyle = 'italic';
+        p.appendChild(pText);
+        resultsdiv.appendChild(p);
+    }
+
+    else {
     const result = document.getElementById('result');
     
     const currentdate = new Date().getFullYear();
@@ -62,6 +69,7 @@ function compute() {
  
     
     principal.value.style.background = 'black';
+    }
   }
 }
 
